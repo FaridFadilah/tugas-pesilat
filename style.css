@@ -1,0 +1,80 @@
+*{ margin: 0; padding: 0; }
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+main{
+  min-height: 100vh;
+  background-color: #f3eae3;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+main .card{
+  display: flex;
+  width:500px;
+  height:380px;
+  border-radius: 5%;
+  background: #fff;
+  align-items: center;
+  gap:1.25rem;
+  position:relative
+}
+main .card .img-container{
+  width: 60%; 
+  height: 100%;
+}
+main .card .img-container img{
+  height:100%;
+  width:100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  object-fit: cover;
+}
+main .card .content{
+  padding-inline: .5rem;
+  padding-block: .25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width:50%
+}
+main .card .content p{
+  color: #abaab1;
+  font-size: 13px;
+  word-spacing: 1px;
+  font-weight: 500;
+}
+main .card .content h5{
+  font-size: 12px;
+  letter-spacing: 2px;
+  color:#787881;
+}
+main .card .content h3{
+  font-size: 30px;
+  line-height: 1.8rem;
+}
+main .card .content .price{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color:#3b7962
+}
+main .card .content .price h6{
+  text-decoration: line-through;
+}
+main .card .content button{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .3rem;
+  background: #3b7962;
+  border: none;
+  color:white;
+  justify-content: center;
+  border-radius: 5px
+}
+main .card .content i{
+  width:25px;
+}
