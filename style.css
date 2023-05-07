@@ -1,0 +1,83 @@
+*{
+  padding:0;
+  margin: 0;
+}
+button{
+  background: white;
+  color: black;
+  border:none
+}
+
+.wrapper{
+  display: flex;
+  gap:.75rem;
+  max-width: 600px;
+  padding:.5rem;
+  margin:1rem;
+  border-radius: 20px;
+  border: 5px solid #B0A4A4;
+}
+
+.wrapper button[type=reset]{
+  border:3px solid #B0A4A4;
+  cursor:pointer;
+  border-radius: 10px;
+  color: #B0A4A4;
+  padding: .5rem;
+}
+
+.wrapper .wrapper-field{
+  display: flex;
+  flex-direction: column;
+  gap:.5rem
+}
+
+.wrapper .wrapper-field .wrapper-number{
+  display: flex;
+  gap:.5rem 
+}
+
+.wrapper .wrapper-field .wrapper-number input{
+  padding:.5rem;
+  border:3px solid #B0A4A4;
+  border-radius: 10px;
+  color: #B0A4A4
+}
+
+.wrapper .wrapper-field .wrapper-number input::-webkit-outer-spin-button,
+.wrapper .wrapper-field .wrapper-number input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin:0;
+}
+
+.wrapper .wrapper-field .wrapper-number input[type=number]{
+  appearance: initial;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+.wrapper .wrapper-field .wrapper-operation{
+  display: flex;
+  gap:.5rem
+}
+
+.wrapper .wrapper-field .wrapper-operation button{
+  padding:.5rem;
+  cursor:pointer;
+  width:50%;
+  border:3px solid #B0A4A4;
+  border-radius: 10px;
+  color: #B0A4A4
+}
+
+#value{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:50px;
+  font-weight: 700;
+  border: 3px solid #B0A4A4;
+  border-radius: 10px;
+  width: 200px;
+  color: #B0A4A4
+}

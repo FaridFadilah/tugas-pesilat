@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <form class="wrapper-field">
+      <div class="wrapper-number">
+        <input type="number" id="numOne">
+        <input type="number" id="numTwo">
+      </div>
+      <div class="wrapper-operation">
+        <button type="button" data-value="+" id="tambah">+</button>
+        <button type="button" data-value="-" id="kurang">-</button>
+        <button type="button" data-value="*" id="kali">*</button>
+        <button type="button" data-value="/" id="bagi">/</button>
+      </div>
+      <button type="reset" id="reset">reset</button>
+    </form>
+    <div id="value"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
